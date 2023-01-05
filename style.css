@@ -6,6 +6,7 @@ body {
   margin: 0px;
   background-color: #fefefe;
   padding: 0px;
+  overflow-x:hidden ;
 }
 
 h1 {
@@ -58,6 +59,19 @@ p.card {
   margin-top: 8px;
   text-align: center;
   max-width: 70%;
+}
+
+p {
+  font-family:'Montserrat', sans-serif;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  height: 156px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
 }
 
 .root-container {
@@ -286,6 +300,45 @@ p.card {
 .section-portifolio-card-img {
   width: 24px;
   height: 24px;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.section-contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-item-icom {
+  width: 24px;
+  height: 24px;
+  margin-right:8px ;
+}
+
+.footer-content {
+  display: flex;
+  width: 1216px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-sociel-itens-coteiner {
+  display: flex;
+  flex-direction: row ;
+  align-items:center ;
+  justify-content: space-between;
+  width: 40%;
 }
 
 
