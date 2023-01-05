@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifolio</title>
+  <script src="index.js"></script>
 </head>
 <body>
  <div class="root-container">
@@ -14,11 +15,17 @@
       <div class="barra-navegacao">
         <h2 class="titulo-navegacao">Samuel de Oliveira</h2>
         <div>
-          <a class="links-navegacao">Habilidades</a>
-          <a class="links-navegacao">Portifólio</a>
-          <a class="links-navegacao">Experiêcia</a>
+          <a onclick="onClickScrollto('section-habilities')"
+          class="links-navegacao">Habilidades</a>
+         
+          <a 
+          onclick="onClickScrollto('section-portifolio')"
+          class="links-navegacao">Portifólio</a>
+        
         </div>
-        <button class="botao-contato-navegacao">CONTATO</button>
+        <button  onclick="onClickScrollto('section-contact')"
+        class="botao-contato-navegacao" 
+        >CONTATO</button>
      </div>
      <div class="hero-info">
       <div>
@@ -29,7 +36,7 @@
         <p class="hero-info-subtitle">
           Programador desde 2022, com foco em desenvolvimento web e mobile.
         </p> 
-        <button>ENTRAR EM CONTATO</button>
+        <button onclick="onClickScrollto('section-contact')">ENTRAR EM CONTATO</button>
         <div class="hero-info-icons-container">
           <a>
             <img class="hero-info-icons-img" src="img2/github.png"/>
@@ -51,8 +58,9 @@
        />
             </div>
         </div>
-      </section>
-      <section class="section-habilities">
+      </section>     
+       <section class="section-habilities" id="section-habilities">
+
       <h2> Habilidades </h2>
       <h2 class="verde"> que domino</h2>
       <div class="hability-cards-container">
@@ -115,7 +123,7 @@
         </div>
       </div>
     </section>
-    <section class="section-portifolio">
+    <section class="section-portifolio" id="section-portifolio">
       <h2> Portifolio </h2>
       <h2 class="verde"> de projetos.</h2>
       <div class="section-portifolio-grid">
@@ -168,7 +176,7 @@
        
       </div>
     </section>
-    <section class="section-contact ">
+    <section class="section-contact " id="section-contact">
       <h2> Como posso  </h2>
       <h2 class="verde"> te ajudar?</h2>
       <p>
