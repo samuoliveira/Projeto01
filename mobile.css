@@ -1,0 +1,79 @@
+
+@media only screen and (max-device-width: 450px) {
+  button {
+    height: 64px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .content-continer {
+    max-width: 96vh;
+    width: 96vw;
+    
+  }
+
+  .section-portifolio-grid {
+    row-gap: 36px;
+    grid-template-columns:  auto;
+   
+    margin-top: 24px;
+   
+  }
+ 
+  .hero-info-image {
+    width: 203px;
+  }
+
+  .barra-navegacao {
+   
+    width: 100%;
+   margin-top: 24px;
+  }
+
+  .hero-info-image {
+    width: 31vw;
+  }
+
+ .hero-info-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 24px;
+ }
+
+  .hability-cards-container {
+    
+    grid-template-columns:  auto;
+    column-gap: 36px;
+    margin-top: 12px;
+  }
+
+  .hero-info {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-content {
+  width: 100%;
+}
+
+.links-navegacao {
+  display: none;
+}
+
+.section-hero {
+  height: auto;
+  padding-bottom:48px ;
+}
+
+}
