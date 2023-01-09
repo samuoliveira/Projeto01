@@ -11,8 +11,12 @@
     text-align: center;
   }
 
+  .titulo-navegacao {
+    font-size: 32rem;
+  }
+
   .content-continer {
-    max-width: 96vh;
+    max-width: 96vw;
     width: 96vw;
     
   }
@@ -26,7 +30,7 @@
   }
  
   .hero-info-image {
-    width: 203px;
+    width: 202px;
   }
 
   .barra-navegacao {
@@ -35,9 +39,6 @@
    margin-top: 24px;
   }
 
-  .hero-info-image {
-    width: 31vw;
-  }
 
  .hero-info-text-container {
   display: flex;
@@ -50,9 +51,9 @@
  }
 
   .hability-cards-container {
-    
+    row-gap: 36px;
     grid-template-columns:  auto;
-    column-gap: 36px;
+    
     margin-top: 12px;
   }
 
