@@ -1,8 +1,8 @@
 
 @media only screen and (max-device-width: 450px) {
   button {
-    height: 64px;
-    font-size: 20px;
+    height: 80px;
+    font-size: 24px;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -12,10 +12,11 @@
   }
 
   .titulo-navegacao {
-    font-size: 32rem;
+    font-size: -3rem;
+    
   }
 
-  .content-continer {
+  .content-container {
     max-width: 96vw;
     width: 96vw;
     
@@ -23,20 +24,23 @@
 
   .section-portifolio-grid {
     row-gap: 36px;
-    grid-template-columns:  auto;
-   
+    
+   grid-template-columns: auto;
     margin-top: 24px;
    
   }
  
   .hero-info-image {
-    width: 202px;
+    width: 70vw;
+    object-fit: cover;
+    
   }
 
   .barra-navegacao {
    
-    width: 100%;
-   margin-top: 24px;
+    width: 22rem;
+   margin-top: 2rem;
+  
   }
 
 
@@ -47,21 +51,40 @@
   flex-direction: column;
   text-align: center;
   width: 100%;
-  margin-bottom: 24px;
+  margin-top: 5rem;
  }
 
   .hability-cards-container {
-    row-gap: 36px;
-    grid-template-columns:  auto;
-    
+    row-gap: 2rem;
+    margin-top: 5rem;
+   grid-template-columns: auto auto;
+   flex-direction: column;
+   align-items: flex-start;
+   
+  }
+
+  .hero-info-title {
+    font-size: 56px;
     margin-top: 12px;
+    
+  }
+
+  .hero-info-icons-img {
+    width: 56px;
+    height: 56px;
+    
+  }
+
+  .hero-info-icons-container {
+    width: 25rem;
   }
 
   .hero-info {
     width: 100%;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    padding-top: 30rem;
   }
 
   .footer-content {
@@ -74,7 +97,13 @@
 
 .section-hero {
   height: auto;
-  padding-bottom:48px ;
+  padding-bottom:29rem ;
+}
+
+.section-habilities{
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 }
